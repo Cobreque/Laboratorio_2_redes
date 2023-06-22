@@ -172,7 +172,7 @@ int main(int argc, char *argv[]) {
         }
 
         // Manejar la solicitud del cliente
-        handle_request(client_socket, "/mnt/c/Users/famob/Desktop/Lab2_redes/Files");
+        handle_request(client_socket, "Files");
 
         // Cerrar el socket del cliente
         close(client_socket);
